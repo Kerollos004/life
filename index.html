@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>life</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="website icon" type="png" href="./images/gallery/nature-01.jpg">
+</head>
+<body>
+    <header>
+        <a href="#home" class="logo">life</a>
+        <nav >
+            <ul class="menu">
+                <li><a href="#home" class="link actlink">home</a></li>
+                <li><a href="#about" class="link">about</a></li>
+                <li><a href="#services" class="link">services</a></li>
+                <li><a href="#products" class="link">products</a></li>
+                <li><a href="#contact" class="link">contact</a></li>
+            </ul>
+        </nav>
+        <article class="menu-bar">
+            <div id="one"></div>
+            <div id="two"></div>
+            <div id="three"></div>
+        </article>
+    </header>   
+            <!------------------ header ------------------------->
+    <article class="setting">
+        <p class="set-title">setting box</p>
+        <article class="bgs">
+            <p>colors</p>
+            <ul>
+                <li onclick=" bgs('rgb(60, 114, 60)')" style="background-color:rgb(60, 114, 60) ;"></li>
+                <li onclick=" bgs('rgb(78, 78, 181)')" style="background-color:rgb(78, 78, 181) ;"></li>
+                <li onclick=" bgs('rgb(177, 15, 166)')" style="background-color:rgb(177, 15, 166) ;"></li>
+                <li onclick=" bgs('rgb(58, 218, 202)')" style="background-color:rgb(58, 218, 202) ;"></li>
+            </ul>
+        </article>
+        <article class="sizes">
+            <p>font size</p>
+            <ul>
+                <li  >
+                    <a onclick="fts('20px')" href="#sizes">small</a>
+                </li>
+                <li  >
+                    <a onclick="fts('25px')"  href="#sizes">medium</a>
+                </li>
+                <li  >
+                    <a onclick="fts('28px')"  href="#sizes">large</a>
+                </li>
+            </ul>
+        </article>
+        <a href="#setting" class="icon">st</a>
+    </article>
+        <!------------------ setting box------------------------->    
+    <article class="home" id="home">
+            <article class="home-text">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus mollitia nostrum eveniet, quidem id!</p>
+                <a href="#">view more</a>
+            </article>
+            <ul>
+                <li onclick="imgs('url(./images/banner-02.jpg)')" class="ball actli"></li>
+                <li onclick="imgs('url(./images/banner-01.jpg)')" class="ball"></li>
+                <li onclick="imgs('url(./images/banner-03.jpg)')" class="ball"></li>
+                <li onclick="imgs('url(./images/banner-04.jpg)')" class="ball"></li>
+            </ul>
+    </article>
+        <!------------------ home sec------------------------->
+    <section class="services" id="services">
+            <article class="title">
+                <h3>our services</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Cum, modi.</p>
+            </article>
+            <article class="service-boxs">
+                <article class="service-box">
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Commodi doloremque cumque voluptates eius vel nesciunt?
+                    </p>
+                </article>
+                <article class="service-box">
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Commodi doloremque cumque voluptates eius vel nesciunt?
+                    </p>
+                </article>
+                <article class="service-box">
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Commodi doloremque cumque voluptates eius vel nesciunt?
+                    </p>
+                </article>
+            </article>
+    </section>
+                </article>
+        <!------------------ services sec------------------------->
+    <section class="about" id="about">
+            <article class="title">
+                <h3>about us</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Cum, modi.</p>
+            </article>
+            <article class="about-box">
+                <article class="about-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi illum officiis 
+                        voluptatibus odit eaque, tempora animi officia? Recusandae, aut et?
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus corrupti placeat 
+                        asperiores consequuntur explicabo, nobis doloremque quisquam sit ipsam reprehenderit.
+                    </p>
+                    <article class="owners">
+                        <article class="owner">
+                            <img src="./images/img-home-01-big.jpg" alt="img">
+                        </article>
+                        <article class="owner">
+                            <img src="./images/img-about-01.jpg" alt="img">
+                        </article>
+                        <article class="owner">
+                            <img src="./images/gallery/building-01.jpg" alt="img">
+                        </article>
+                    </article>
+                </article>
+                <article class="about-img">
+                    <img src="./images/img-about-01.jpg" alt="img">
+                </article>
+            </article>
+    </section>
+        <!------------------ about sec------------------------->
+    <section class="products" id="products">
+            <ariticle class="search-box">
+                <article class="search">
+                    <input type="text" class="input" placeholder="search">
+                    <a href="#products" class="submit">search</a>
+                </article>
+            </ariticle>
+            <article class="product-content">
+                <ul>
+                    <li><a href="#products" data-filter=".all" class="prolink actprolink">all</a></li>
+                    <li><a href="#products" data-filter=".animals" class="prolink">animals</a></li>
+                    <li><a href="#products" data-filter=".nature" class="prolink">nature</a></li>
+                    <li><a href="#products" data-filter=".buildings" class="prolink">buildings</a></li>
+                </ul>
+                <article class="product-side">
+                    <article class="product all nature">
+                        <img src="./images/gallery/nature-01.jpg" alt="">
+                    </article>
+                    <article class="product all animals">
+                        <img  src="./images/gallery/animal-01.jpg" alt="">
+                    </article>
+                    <article class="product all animals">
+                        <img src="./images/gallery/animal-02.jpg" alt="">
+                    </article>
+                    <article class="product all nature ">
+                        <img src="./images/gallery/nature-02.jpg" alt="">
+                    </article>
+                    <article class="product all buildings ">
+                        <img  src="./images/gallery/building-01.jpg" alt="">
+                    </article>
+                    <article class="product all buildings">
+                        <img  src="./images/gallery/building-02.jpg" alt="">
+                    </article>
+                </article>
+            </article>
+    </section>
+        <!----------------- products sec------------------------>
+    <section class="connect" id='contact'>
+
+            <article class="title">
+                <h3>connect us </h3>
+                <p>Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Cum, modi.</p>
+            </article>
+            <article class="connect-content">
+                <article class="connect-box active form log">
+                    <form action="">
+                        <input    class="input" type=" text" placeholder="your name">  
+                        <input    class="input" type=" text" placeholder="your name"> 
+                        <input    class="input" type=" text" placeholder="your email"> 
+                        <input    class="input" type="password" placeholder="your password">
+                        <textarea class="input" id="" cols="30" rows="10" placeholder="your message"></textarea>
+                        <a href="#connect" class="submit">submit</a>
+                    </form>
+                    <article class="connect-text ">
+                        <h3>welcome back</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam id recusandae et.</p>
+                        <p>you don,t have an account</p>
+                        <a href="#connect" data-shift=".regist" class="btn">register</a>
+                    </article>
+                </article>
+
+                <article class="register-box form regist" >
+                    <form action="">
+                        <input    class="input" type=" text" placeholder="your name">  
+                        <input    class="input" type=" number" placeholder="your age"> 
+                        <input    class="input" type=" text" placeholder="your email"> 
+                        <a href="#connect" class="submit">log in</a>
+                    </form>
+                    <article class="connect-text">
+                        <h3>hello freind</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam id recusandae et.</p>
+                        <p>already have an account</p>
+                        <a href="#connect" data-shift=".log" class="btn">log in</a>
+                    </article>
+                </article>
+            </article>
+    </section>    
+    <!---------------- connect sec------------------------>
+    <footer>
+        <article class="footer-block">
+            <h3>our life</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id rerum incidunt ad. Maxime
+                dicta blanditiis distinctio dolorum, laborum fugiat.
+            </p>
+        </article>
+        <article class="footer-block">
+            <h3>main links</h3>
+            <ul class="menu">
+                <li><a href="#home" >home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#products">products</a></li>
+                <li><a href="#contact" >contact</a></li>
+            </ul>
+        </article>
+        <article class="footer-block">
+            <h3>follow us on</h3>
+            <ul class="menu">
+                <li><a href="#">facebook</a></li>
+                <li><a href="#"> instagram</a></li>
+                <li><a href="#"> twitter</a></li>
+                <li><a href="#"> whatsapp</a></li>
+            </ul>
+        </article>
+        <article class="footer-block">
+            <article class="sletter">
+                <h3>join our new sletter</h3>
+                <input type="text" class="input" placeholder="typing...">
+                <a href="#" class="submit">join us</a>
+            </article>
+        </article>
+    </footer>
+    <!---------------- footer --------------------------->
+    <article class="end">
+        <p>this website is made by <a href="">kerollos melad 💚</a> </p>
+    </article>
+    <button class="up">up</button>
+    <script src="mian.js"></script>
+</body>
+</html>
